@@ -37,5 +37,7 @@ The problem also only appears when someone is listening for events of this Event
 ```logman start test_trace -p {53487b38-863e-5b17-bdce-7b706a2e81a6} -ets```  
 1. Run App1 again
 1. Notice that an exception is thrown
-1. Downgrade NuGet package Microsoft.NETCore.UniversalWindowsPlatform to version 6.1.9 and repeat the steps above
+1. Downgrade NuGet package Microsoft.NETCore.UniversalWindowsPlatform to version 6.1.9
+1. Restart computer
+1. Repeat the test above
 1. Notice that now no exception is thrown
