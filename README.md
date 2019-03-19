@@ -1,5 +1,7 @@
 # Reproduction of issue with string arrays in EventSource.Write
 
+This issue is reported here: https://github.com/dotnet/corefx/issues/36149.
+
 With NuGet package Microsoft.NETCore.UniversalWindowsPlatform version 6.2.8, we get the following exception:
 
 ```
